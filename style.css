@@ -202,4 +202,34 @@ footer{
     .grid-image{
         border-radius: 0px;
     }
+    .footer_container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer_logo img {
+        max-width: 120px;
+    }
+
+    .link_lists {
+        margin-top: 20px;
+    }
+
+    .news_letter {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .footer_container {
+        padding: 10px;
+    }
+
+    .link_lists h3, .news_letter h3 {
+        font-size: 16px;
+    }
+
+    .news_letter input {
+        max-width: 200px;
+    }
 }
